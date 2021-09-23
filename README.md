@@ -145,7 +145,7 @@ Finally, let's add a few more effects for when the tiles are matched. Append the
 
 Test it again, and see what happens when matching the tiles.
 
-Open the Game scene, and right-click on the Game node. Add Child Node. Select Camera2D and rename it Camera. Attach a script to the Camera (res://Camera.gd), and replace the resulting script with the following:
+Open the Game scene, and right-click on the Game node. Add Child Node. Select Camera2D and rename it Camera. In the Inspector, set Camera2D->Current = On and Camera2D->Anchor Mode = Fixed TopLeft. Attach a script to the Camera (res://Camera.gd), and replace the resulting script with the following:
 ```
 extends Camera2D
 # Originally developed by Squirrel Eiserloh (https://youtu.be/tu-Qe66AvtY)
@@ -189,7 +189,7 @@ func add_trauma(amount):
  
  Then, in res://Global.gd, append this to the `change_score(s)` function:
  ```
- 	if camera == null:
+	if camera == null:
 		camera = get_node_or_null("/root/Game/Camera")
 	if camera != null:
 		camera.add_trauma(s/20.0)
