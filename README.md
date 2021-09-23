@@ -2,6 +2,8 @@
 
 Exercise for MSCH-C220, 23 September 2021
 
+A demonstration of this exercise is available at [https://youtu.be/kIHNR2RrnPw](https://youtu.be/kIHNR2RrnPw)
+
 This exercise will add several juicy features to our match-3 game. You may not want to use them all at the same time, but this is a chance to explore a variety of techniques. The exercise will provide you with several features that should move you towards the implementation of Project 03.
 
 Fork this repository. When that process has completed, make sure that the top of the repository reads [your username]/Exercise-03b-Tweening-and-Screen-Shake. Edit the LICENSE and replace BL-MSCH-C220-F21 with your full name. Commit your changes.
